@@ -1,7 +1,7 @@
 /* A number is prime or not */
 
-#include <stdio.h>
-#include <math.h>
+#include<stdio.h>
+#include<math.h>
 
 int main()
 {
@@ -9,7 +9,7 @@ int main()
 	printf("\nEnter any number: ");
 	scanf("%d", &n);
 
-	for (i = 1; i <= sqrt(n); i++)
+	for (i=1;i<=sqrt(n);i++)
 	{
 		if (n % i == 0)
 		{
