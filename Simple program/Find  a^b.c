@@ -4,10 +4,9 @@
 
 int main()
 {
-	int a,b,i,t;
+	int a,b,i=1,t;
 	printf("\nEnter any two no: ");
 	scanf("%d%d",&a,&b);
-	i=1;
 	t=a;
 	while(i<b)
 	{
